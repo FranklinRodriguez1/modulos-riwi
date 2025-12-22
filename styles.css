@@ -21,11 +21,7 @@ html{
     width: 100vw;
     background:linear-gradient(to right, rgb(21, 21, 160), rgb(79, 17, 138));
     color: white; 
-<<<<<<< HEAD
-    padding: 3rem 1rem; 
-=======
     padding: 3rem 2rem; 
->>>>>>> 512291f (modulo 2 terminado)
     text-align: center; 
     display: flex; 
     justify-content: center; 
@@ -37,17 +33,6 @@ html{
     width: 100%;
     justify-content: space-evenly; 
     align-items: center;
-<<<<<<< HEAD
-    a{
-            text-decoration: none; 
-            color: white;  
-        } 
-    a:hover{
-            text-decoration: underline crimson; 
-            text-shadow: 1px 1px 5px black;
-        }     
-}  
-=======
    
       
 }   
@@ -59,17 +44,12 @@ html{
      text-decoration: underline crimson; 
     text-shadow: 1px 1px 5px black;
         }  
->>>>>>> 512291f (modulo 2 terminado)
 
 .aboutMe{
     display: flex; 
     justify-content: space-around; 
-<<<<<<< HEAD
-    align-items: center;  
-=======
     align-items: center;   
     flex-flow: row wrap;
->>>>>>> 512291f (modulo 2 terminado)
     width: 100%;
     padding: 2rem 1rem;    
     padding-top: 15rem;
@@ -94,12 +74,8 @@ html{
 } 
 
 .proyect{ 
-<<<<<<< HEAD
-    display: flex; 
-=======
     display: flex;  
     width: 100%;
->>>>>>> 512291f (modulo 2 terminado)
     flex-flow: column nowrap; 
     justify-content: center; 
     align-items: center; 
@@ -147,11 +123,7 @@ html{
     .buttonProyect{
         padding: 1.2rem;   
         border:none;
-<<<<<<< HEAD
-        width: 20rem;
-=======
         width: 50%;
->>>>>>> 512291f (modulo 2 terminado)
         color: white;  
         font-weight: 900;
         background: linear-gradient(to right, rgb(21, 21, 160), rgb(79, 17, 138)); 
@@ -166,9 +138,6 @@ html{
         color: rgb(12, 12, 116); 
         transition: all .3s ease;
     }
-<<<<<<< HEAD
-}
-=======
 } 
 /* menu responsive */ 
 .imgResponsive{
@@ -244,4 +213,3 @@ html{
         cursor: pointer;
     }
 } 
->>>>>>> 512291f (modulo 2 terminado)
