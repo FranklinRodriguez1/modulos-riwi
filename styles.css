@@ -21,7 +21,11 @@ html{
     width: 100vw;
     background:linear-gradient(to right, rgb(21, 21, 160), rgb(79, 17, 138));
     color: white; 
+<<<<<<< HEAD
     padding: 3rem 1rem; 
+=======
+    padding: 3rem 2rem; 
+>>>>>>> 512291f (modulo 2 terminado)
     text-align: center; 
     display: flex; 
     justify-content: center; 
@@ -33,6 +37,7 @@ html{
     width: 100%;
     justify-content: space-evenly; 
     align-items: center;
+<<<<<<< HEAD
     a{
             text-decoration: none; 
             color: white;  
@@ -42,11 +47,29 @@ html{
             text-shadow: 1px 1px 5px black;
         }     
 }  
+=======
+   
+      
+}   
+.accessList  a{
+    text-decoration: none; 
+    color: white;  
+}  
+.accessList  a:hover{
+     text-decoration: underline crimson; 
+    text-shadow: 1px 1px 5px black;
+        }  
+>>>>>>> 512291f (modulo 2 terminado)
 
 .aboutMe{
     display: flex; 
     justify-content: space-around; 
+<<<<<<< HEAD
     align-items: center;  
+=======
+    align-items: center;   
+    flex-flow: row wrap;
+>>>>>>> 512291f (modulo 2 terminado)
     width: 100%;
     padding: 2rem 1rem;    
     padding-top: 15rem;
@@ -71,7 +94,12 @@ html{
 } 
 
 .proyect{ 
+<<<<<<< HEAD
     display: flex; 
+=======
+    display: flex;  
+    width: 100%;
+>>>>>>> 512291f (modulo 2 terminado)
     flex-flow: column nowrap; 
     justify-content: center; 
     align-items: center; 
@@ -119,7 +147,11 @@ html{
     .buttonProyect{
         padding: 1.2rem;   
         border:none;
+<<<<<<< HEAD
         width: 20rem;
+=======
+        width: 50%;
+>>>>>>> 512291f (modulo 2 terminado)
         color: white;  
         font-weight: 900;
         background: linear-gradient(to right, rgb(21, 21, 160), rgb(79, 17, 138)); 
@@ -134,4 +166,82 @@ html{
         color: rgb(12, 12, 116); 
         transition: all .3s ease;
     }
+<<<<<<< HEAD
 }
+=======
+} 
+/* menu responsive */ 
+.imgResponsive{
+    display: none!important;
+    font-size: 3rem !important;
+} 
+
+/*mediaquerys*/ 
+@media (max-width: 750px) { 
+    .aboutMe{
+        flex-flow: column nowrap; 
+        gap: 2rem;   
+        img{
+            width: 50%;
+        }
+        .info_Aboutme{
+            width: 90%; 
+            align-items: center; 
+            text-align: center;  
+            gap: 1rem;  
+            h1{
+                font-size: 2.3rem;
+            }
+            p{
+                font-size: 1.2rem; 
+                padding-top: 2rem;
+            }
+        }
+    }
+    /* project */
+    .list_proyect{
+        display: flex; 
+        flex-flow: column nowrap !important;  
+        height: auto; 
+        gap: 2rem; 
+        width: 100%;
+    } 
+    .proyectUnid{
+        width: 80% ;  
+        height: auto;
+}  
+    .buttonProyect{
+        width: 60% !important;  
+    } 
+    /* end proyect */ 
+    .active{
+        display: flex  !important;
+        flex-flow: column nowrap;  
+        width: auto;
+        justify-content: flex-end;
+        gap: 1rem; 
+        transition: all .3s ease; 
+        font-size: 1.5rem; 
+    } 
+    .accessList{   
+        display: none ;   
+        justify-content: flex-end; 
+    }  
+    .accessListResponsive{ 
+        gap: 2rem; 
+        margin-top: 2rem; 
+        a{
+            font-size: 1.5rem; 
+        }
+    }   /*clase para responsive*/
+    .header{
+        flex-flow: column-reverse nowrap;  
+        gap: 1rem;
+        justify-content: center !important;  
+        align-items: flex-end;    
+    } 
+    .imgResponsive{
+        cursor: pointer;
+    }
+} 
+>>>>>>> 512291f (modulo 2 terminado)

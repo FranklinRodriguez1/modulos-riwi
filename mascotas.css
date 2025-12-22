@@ -42,4 +42,150 @@ html{
             text-decoration: underline crimson; 
             text-shadow: 1px 1px 5px black;
         }     
+}   
+ 
+.pets{ 
+    margin-top: 8rem;
+    display: flex; 
+    flex-flow: column wrap; 
+    align-items: center; 
+    justify-content: center; 
+    gap: 3rem; 
+    padding: 5rem 0; 
+    width: 100%;
 }  
+.titlePets{
+    font-size: 3rem; 
+    color: rgb(66, 118, 185); 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.308);
+}
+.list_pets{
+    display: flex;  
+    width: 100%; 
+    height: auto;
+    flex-flow: row wrap; 
+    align-items: center; 
+    justify-content: space-around; 
+    gap: 2rem; 
+}  
+.card{
+    display: flex; 
+    flex-flow: column nowrap;  
+    width: 20rem; 
+    height: 35rem; 
+    text-align: center;  
+    gap: 1rem;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.308);
+   
+}
+
+ .imgCard_pet{
+    width: 100%;
+        height: 60%; 
+        width: 100%; 
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px; 
+        box-shadow: -2px 5px 5px rgba(0, 0, 0, 0.308);
+        /* object-fit: contain;  */
+    } 
+.titleCard_pet  {
+        font-size: 2rem; 
+        color: rgb(66, 118, 185); 
+    }  
+.textCard_pet{
+        font-size: 1.1rem; 
+        padding: 0 1rem; 
+        text-align: center; 
+    }
+
+/* menu responsive */ 
+.imgResponsive{
+
+    font-size: 3rem !important;
+} 
+ 
+
+.active{
+        display: flex  !important;
+        flex-flow: column nowrap;  
+        width: auto;
+        justify-content: flex-end;
+        gap: 1rem; 
+        transition: all .3s ease; 
+        font-size: 1.5rem; 
+    } 
+    .accessListResponsive{ 
+        gap: 2rem; 
+        margin-top: 2rem; 
+        a{
+            font-size: 1.5rem; 
+        }
+    }   /*clase para responsive*/
+    .header{
+        flex-flow: column-reverse nowrap;  
+        gap: 1rem;
+        justify-content: center !important;  
+        align-items: flex-end;    
+    } 
+    .imgResponsive{
+        cursor: pointer; 
+        display: none !important;
+    }
+ 
+/* end menu responsive */ 
+@media (max-width: 750px) { 
+    .aboutMe{
+        flex-flow: column nowrap; 
+        gap: 2rem;   
+        img{
+            width: 50%;
+        }
+        .info_Aboutme{
+            width: 90%; 
+            align-items: center; 
+            text-align: center;  
+            gap: 1rem;  
+            h1{
+                font-size: 2.3rem;
+            }
+            p{
+                font-size: 1.2rem; 
+                padding-top: 2rem;
+            }
+        }
+    }
+    /* project */
+   
+ 
+    .active{
+        display: flex  !important;
+        flex-flow: column nowrap;  
+        width: auto;
+        justify-content: flex-end;
+        gap: 1rem; 
+        transition: all .3s ease; 
+        font-size: 1.5rem; 
+    } 
+    .accessList{   
+        display: none ;   
+        justify-content: flex-end; 
+    }  
+    .accessListResponsive{ 
+        gap: 2rem; 
+        margin-top: 2rem; 
+        a{
+            font-size: 1.5rem; 
+        }
+    }   /*clase para responsive*/
+    .header{
+        flex-flow: column-reverse nowrap;  
+        gap: 1rem;
+        justify-content: center !important;  
+        align-items: flex-end;    
+    } 
+    .imgResponsive{
+        cursor: pointer;
+    }
+} 
+
